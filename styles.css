@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------- Section 1 -------------- */
+
+#section1{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px 10% 50px;
+}
+
+#section1 .header{
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    margin-bottom: 70px;
+}
+
+#section1 .header .links{
+    margin-left: auto;
+}
+
+.mainText{
+    display: flex;
+    flex: 1;
+}
+
+.mainText img{
+    background-color: rgba(233, 233, 233, 0.329);
+    float: right;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+}
+
+.mainText h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.mainText p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#section1 button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#section1 button:active{
+    background-color: #e5e7eb;
+    color:#3882f6;
+}
+/* -------------- Section 2 -------------- */
+
+#section2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 30px 20%;
+    margin-bottom: 70px;
+}
+
+#section2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#section2 img{
+    border: 2px solid #3882f6;
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+}
+
+#section2 .squares{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+#section2 .square{
+    width: 100px;
+}
+
+#section2 .square p{
+    color: rgb(110, 110, 110);
+    text-wrap: wrap;
+}
+
+/* -------------- Section 3 -------------- */
+
+#section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 50px 20%;
+}
+
+#section3 .quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: light;
+    font-style: italic;
+
+}
+
+#section3 span {
+    float: right;
+    font-weight: bolder;
+    font-size: medium;
+    font-size: 1.5em;
+}
+
+/* -------------- Section 4 -------------- */
+#section4{
+    color:#e5e7eb;
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px 15%;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+#section4 button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #e5e7eb;
+    padding: 10px 5px;
+    text-wrap: nowrap;
+}
+
+#section4 button:active{
+    background-color: white;
+    color: #3882f6;
+}
+
+/* -------------- Section 5 -------------- */
+
+#section5 footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+    margin-top: auto;
+}
